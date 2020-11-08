@@ -1,0 +1,1 @@
+This program simulates an etch-a-sketch.

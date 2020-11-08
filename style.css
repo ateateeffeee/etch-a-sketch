@@ -1,0 +1,34 @@
+:root {
+    --grid-cols: 0;
+    --grid-rows: 0;
+    --paint-color: ;
+  }
+  
+  #container {
+    display: grid;
+    padding: 10em;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    /*grid-gap: 1em;*/
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    
+  }
+  
+  .grid-item {
+    border: 1px solid #ddd;
+    text-align: center;
+    /*background-color: var(--paint-color);*/
+
+  }
+
+  body {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+  /*.grid-item:hover {
+    background-color: black;
+  }
